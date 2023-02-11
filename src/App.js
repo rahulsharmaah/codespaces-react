@@ -4,7 +4,6 @@ function App() {
 
   let name  = 'react app'
   let className = 'App-header';
-  console.log('App')
   return (
     <div className="">
       <div className={className}>
@@ -15,7 +14,6 @@ function App() {
   );
 }
 function Demo() {
-  console.log('Demo')
   return (
     <div className="App">
       <div className='App-header'>
